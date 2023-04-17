@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>doodle</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/main.css">
+    <!--웹폰트-->
+    <link rel="stylesheet" href="./font/stylesheet.css">
+    <!--파비콘-->
+    <link rel="shortcut icon" href="./favicon-16x16.png" type="image/x-icon">
+</head>
+
+<body>
+    <div id="header">
+        <div class="header_inner">
+            <h1 id="logo"><a href="./index.html"><img src="./images/logo.png" alt="로고이미지"></a></h1>
+            <ul id="gnb">
+                <li><a href="./sub1.html">about</a></li>
+                <li><a href="./sub2.html">product</a></li>
+                <li><a href="./sub3.html">Event</a></li>
+            </ul>
+            <ul class="login">
+                <li><a href="#"><img src="./images/info.png" alt="내정보"></a></li>
+                <li><a href="#"><img src="./images/cart.png" alt="카트"></a></li>
+                <li><a href="#"><img src="./images/logout.png" alt="로그아웃"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="swiper mainbanner">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./images/mainbanner1.png" alt="메인이미지1"></div>
+            <div class="swiper-slide"><img src="./images/mainbanner2.png" alt="메인이미지2"></div>
+            <div class="swiper-slide"><img src="./images/mainbanner3.png" alt="메인이미지3"></div>
+        </div>
+        <div class="swiper-pagination mbpag"></div>
+    </div>
+
+    <div id="wrapper">
+        <!--탭 메뉴 영역 -->
+        <h1 class="tab_title">6월 행사상품</h1>
+        <ul class="tabs">
+            <li><a href="#tab1">전체상품</a></li>
+            <li><a href="#tab2">신상품</a></li>
+        </ul>
+
+        <!--탭 콘텐츠 영역 -->
+        <div class="tab_container">
+
+            <div id="tab1" class="tab_content">
+                <ul>
+                    <li><a href="sub2.html"><img src="./images/new1.png" alt="뉴이미지1"></a></li>
+                    <li><a href="sub2.html"><img src="./images/new2.png" alt="뉴이미지2"></a></li>
+                    <li><a href="sub2.html"><img src="./images/new3.png" alt="뉴이미지3"></a></li>
+                    <li><a href="sub2.html"><img src="./images/new4.png" alt="뉴이미지4"></a></li>
+                </ul>
+
+            </div>
+
+            <div id="tab2" class="tab_content">
+                <ul>
+                    <li><a href="sub2.html"><img src="./images/new5.png" alt="뉴이미지5"></a></li>
+                    <li><a href="sub2.html"><img src="./images/new6.png" alt="뉴이미지6"></a></li>
+                    <li><a href="sub2.html"><img src="./images/new7.png" alt="뉴이미지7"></a></li>
+                    <li><a href="sub2.html"><img src="./images/new8.png" alt="뉴이미지8"></a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="video">
+        <div class="video_inner">
+            <video src="./doodle.mp4" type="video/mp4" muted autoplay loop width="1320px"></video>
+        </div>
+    </div>
+
+    <div id="md">
+        <img src="./images/moredoodle.png" alt="두들바로가기">
+    </div>
+
+    <div id="button_box">
+        <p class="button"><a href="sub1.html">MORE DOODLE</a></p>
+    </div>
+
+    <div id="insta">
+        <h1 class="title">Doodle's<br>Story</h1>
+        <ul>
+            <li><a href="#"><img src="./images/insta1.png" alt="인스타이미지1"></a></li>
+            <li class="margin"><a href="#"><img src="./images/insta2.png" alt="인스타이미지2"></a></li>
+            <li><a href="#"><img src="./images/insta3.png" alt="인스타이미지3"></a></li>
+        </ul>
+    </div>
+
+    <div id="footer">
+        <div class="footer_inner">
+            <h1 class="footer_logo"><a href="#"><img src="./images/logo.png" alt="로고이미지"></a></h1>
+            <div>
+                <ul>
+                    <li><a href="https://ko-kr.facebook.com/"><img src="./images/footer1.png" alt="푸터1"></a></li>
+                    <li><a href="https://www.instagram.com/"><img src="./images/footer2.png" alt="푸터2"></a></li>
+                    <li><a href="https://twitter.com/?lang=ko"><img src="./images/footer3 (2).png" alt="푸터3"></a></li>
+                </ul>
+                <p>개인정처리방침 이용약관 회사소개 <br>
+                    대표자 : 홍수희 ㅣ 사업자 등록번호 : 000-00-0000 <br>
+                    EMAIL : tngml0727@gmail.com <br>
+                    Copyright © 2023 . All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mainbanner", {
+
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            autoplay: {
+                delay: 2000,
+                disableOnInteraction: false,
+            },
+            speed: 1000,
+            loop: true,
+        });
+    </script>
+
+    <!--제이쿼리 라이브러리파일-->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"
+        integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <!--탭 제이쿼리-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            //처음들어갔을때 모습 만들기...
+            $(".tab_content").hide(); //tab_content 부분을 모두 숨김.
+            $("ul.tabs li:first").addClass("active").show(); //첫번째 탭이 active클래스를 붙이고, 보여줌.
+            $(".tab_content:first").show(); //tab_contents중 첫번째꺼를 보여줌
+
+            //On Click Event
+            $("ul.tabs li").click(function () {
+
+                $("ul.tabs li").removeClass("active"); //Remove any "active" class
+                $(this).addClass("active"); //선택한 탭에만 active클래스 붙임
+                $(".tab_content").hide(); //모든 contents들 숨김
+
+                var activeTab = $(this).find("a").attr("href"); //Find the href attribute value to identify the active tab + content
+                /*.attr( attributeName ) -> 선택한 요소의 속성의 값을 가져옵니다.
+                .find()는 어떤 요소의 하위 요소 중 특정 요소를 찾을 때 사용합니다.*/
+                $(activeTab).fadeIn(); //Fade in the active ID content(active되어있는 칸의 id 값을 가진 부분이 나타남)
+                return false;
+            });
+
+        });
+    </script>
+</body>
+
+</html>

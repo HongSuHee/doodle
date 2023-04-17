@@ -1,0 +1,140 @@
+/* 웹폰트
+font-family: 'Tmoney';
+font-family: 'Sniglet';
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #676d72;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    min-width: 1450px;
+    font-family: 'Tmoney';
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+    background: url(../images/background_body.jpg);
+}
+
+/*header*/
+#header {
+    background-color: #ffffcc;
+    font-family: 'Sniglet';
+}
+
+.header_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#gnb {
+    display: flex;
+
+}
+
+#logo {
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+
+#gnb li {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px 20px;
+}
+
+.login {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.login li {
+    padding: 0px 20px;
+    padding-right: 0;
+}
+
+/*main_banner*/
+#main_banner img {
+    width: 100%;
+}
+
+/*event*/
+
+#event {
+    padding-bottom: 300px;
+}
+
+.event_inner {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+#event h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #99cc33;
+    padding-top: 167px;
+    padding-bottom: 70px;
+}
+
+#event ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#event ul li p {
+    padding-top: 38px;
+}
+
+/*footer*/
+#footer {
+    background-color: #ffffcc;
+}
+
+.footer_inner {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.footer_inner ul {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 26px;
+}
+
+.footer_inner ul li {
+    padding-right: 20px;
+}
+
+.footer_inner p {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: right;
+}

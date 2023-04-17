@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Sniglet';
+    src: url('Sniglet-Regular.eot');
+    src: url('Sniglet-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Sniglet-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sniglet';
+    src: url('Sniglet-ExtraBold.eot');
+    src: url('Sniglet-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Sniglet-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tmoney';
+    src: url('TmoneyRoundWind-ExtraBoldA1.eot');
+    src: url('TmoneyRoundWind-ExtraBoldA1.eot?#iefix') format('embedded-opentype'),
+        url('TmoneyRoundWind-ExtraBoldA1.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Tmoney';
+    src: url('TmoneyRoundWind-RegularA1.eot');
+    src: url('TmoneyRoundWind-RegularA1.eot?#iefix') format('embedded-opentype'),
+        url('TmoneyRoundWind-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
